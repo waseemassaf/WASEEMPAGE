@@ -1,0 +1,90 @@
+/* Importera typsnitt från Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&family=Open+Sans:wght@300;600&family=Oswald:wght@200&display=swap');
+
+/* Återställ standardmarginaler, fyllningar och box-modell för alla element */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ändra utseendet på hela sidans kropp */
+body {
+    background: #97b47a; /* Bakgrundsfärg */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    line-height: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Allt innehåll (header + article) inställningar på sidan */
+.main {
+    margin: 16px auto;
+    background: #ffffff;
+    width: 96%;
+    max-width: 750px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* Ändra standardtextstorleken för hela dokumentet */
+html {
+    font-size: 100%;
+}
+
+/* Inställningar för vanliga textstycken */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+/* Inställningar för rubriker av typen h1 */
+h1 {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.4rem;
+    margin-bottom: 1.68rem;
+}
+
+/* Inställningar för navigationsmenyn */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #adee66;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Inställningar för länkar i navigationsmenyn */
+.nav a {
+    text-decoration: none;
+    color: #120be5;
+    font-size: 1.4rem;
+}
+
+/* Hover-effekt för länkar i navigationsmenyn */
+.nav a:hover,
+.nav a:active {
+    color: rgb(255, 0, 0);
+}
+
+/* Inställningar för bilder */
+img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* Styling för footer */
+.footer {
+    background-color: #f0d508;
+    color: #ffffff;
+    padding: 35px;
+    text-align: center;
+    width: 100%;
+}
